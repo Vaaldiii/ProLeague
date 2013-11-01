@@ -28,6 +28,7 @@ if(!isset($_SESSION['user_name'])){
 		//Mostrar instrucciones
 	//}
 //}
+// ‹ › < >
 ?>
 <!DOCTYPE html>
 <html>
@@ -35,14 +36,20 @@ if(!isset($_SESSION['user_name'])){
     <title>Pro League</title>
     <meta charset="utf-8">
     <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>	
-    <link href="css/bootstrap-combined.min.css" rel="stylesheet" type='text/css'>
-    <script src="js/jquery-1.10.2.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" type='text/css'>
+    <link href="css/index.css" rel="stylesheet" type='text/css'>
   </head>
   <body>
-	  <div class="content">
+	  <div class="content-container">
+	  	<div class="menu">Menu</div>
+	  	<div class="slide"><i class="icon-chevron-left"></i></div>
+	  	<div class="content">Contenido</div>
 	  	<div class="span4"></div>
-	  	<div class="span8"></div>
 	  </div>
+	  <script src="js/jquery-1.10.2.min.js"></script>
+	  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
 <?php mysql_close($dhb); ?>

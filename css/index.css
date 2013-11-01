@@ -1,0 +1,19 @@
+.content-container{
+	width: 100%;
+}
+
+.menu{
+	width: 26%;
+	height: 100%;
+	float: left;
+}
+
+.slide{
+	width: 4%;
+	height: 100%;
+	float: left;
+}
+
+.content{
+	float: left;
+}
